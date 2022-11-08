@@ -5,7 +5,8 @@ export type BigintIsh = JSBI | number | string
 
 export enum ChainId {
   MAINNET = 56,
-  TESTNET = 97
+  TESTNET = 97,
+  ROBURNA = 159
 }
 
 export enum TradeType {
@@ -20,6 +21,7 @@ export enum Rounding {
 }
 
 export const FACTORY_ADDRESS = '0x0de73FE9d848A68Aba41c3edcd2C69301a7f4573'
+export const FACTORY_ADDRESS_ROBURNA = '0x0de73FE9d848A68Aba41c3edcd2C69301a7f4573'
 
 export const FACTORY_ADDRESS_MAP = {
   [ChainId.MAINNET]: FACTORY_ADDRESS,
@@ -27,6 +29,7 @@ export const FACTORY_ADDRESS_MAP = {
 }
 
 export const INIT_CODE_HASH = '0x2e26c6a371cb994ce7b30f334480a5782dff687140d5608ced830fc138a0ed7b'
+export const INIT_CODE_HASH_ROBURNA = '0x2e26c6a371cb994ce7b30f334480a5782dff687140d5608ced830fc138a0ed7b'
 
 export const INIT_CODE_HASH_MAP = {
   [ChainId.MAINNET]: INIT_CODE_HASH,
